@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #ffffff;
+  color: #111;
+}
+
+/* HEADER */
+header {
+  padding: 18px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 800;
+  color: #d60000;
+}
+
+nav a {
+  margin-left: 28px;
+  color: #111;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #d60000;
+}
+
+/* HERO */
+.hero {
+  padding: 90px 8%;
+  text-align: center;
+  background: linear-gradient(135deg, #fff 60%, #ffecec);
+}
+
+.hero h1 {
+  font-size: 3.2rem;
+  font-weight: 800;
+}
+
+.hero span {
+  color: #d60000;
+}
+
+.hero p {
+  margin-top: 15px;
+  font-size: 1.15rem;
+  color: #555;
+}
+
+.btn {
+  margin-top: 35px;
+  display: inline-block;
+  padding: 15px 42px;
+  background: #d60000;
+  color: #fff;
+  border-radius: 40px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #b00000;
+  transform: translateY(-2px);
+}
+
+/* TRUST BAR */
+.trust {
+  padding: 50px 8%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  text-align: center;
+}
+
+.trust div {
+  padding: 30px;
+  border: 1px solid #eee;
+  border-radius: 14px;
+  transition: 0.3s;
+}
+
+.trust div:hover {
+  transform: translateY(-5px);
+}
+
+.trust h3 {
+  color: #d60000;
+  margin-bottom: 8px;
+}
+
+/* PRODUCTS */
+.section {
+  padding: 80px 8%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 35px;
+}
+
+.card {
+  border: 1px solid #eee;
+  border-radius: 18px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.card img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 18px;
+}
+
+.price {
+  color: #d60000;
+  font-weight: 700;
+  margin-top: 6px;
+}
+
+/* PRODUCT PAGE */
+.product-img {
+  max-width: 320px;
+  margin: 30px auto;
+  display: block;
+  border-radius: 18px;
+}
+
+/* FOOTER */
+footer {
+  background: #fafafa;
+  padding: 40px 8%;
+  margin-top: 80px;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.footer-links a {
+  color: #555;
+}
+
+.footer-links a:hover {
+  color: #d60000;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #777;
+}
