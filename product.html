@@ -25,6 +25,28 @@ target="_blank">Proceed to WhatsApp</a>
 <footer>
 <p>© KENSA. All rights reserved.</p>
 </footer>
+<!-- Premium Order Form Modal -->
+<div id="orderModal" class="modal">
+  <div class="modal-box">
+    <span class="close" onclick="closeOrder()">✕</span>
+    <h3>Complete Your Order</h3>
+    <p>Secure checkout • Cash on Delivery available</p>
+
+    <input type="hidden" id="productName" value="Premium Product">
+
+    <input type="text" id="name" placeholder="Full Name" required>
+    <input type="tel" id="phone" placeholder="Mobile Number" required>
+    <textarea id="address" placeholder="Full Address" required></textarea>
+    <input type="text" id="pincode" placeholder="Pincode" required>
+
+    <select id="payment">
+      <option value="Cash on Delivery">Cash on Delivery</option>
+      <option value="WhatsApp Confirmation">WhatsApp Confirmation</option>
+    </select>
+
+    <button onclick="submitOrder()">Proceed to WhatsApp</button>
+  </div>
+</div>
 
 </body>
 </html>
