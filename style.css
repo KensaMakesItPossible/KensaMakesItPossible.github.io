@@ -173,3 +173,50 @@ footer p {
   font-size: 13px;
   color: #777;
 }
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-box {
+  background: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  width: 90%;
+  max-width: 420px;
+  position: relative;
+}
+
+.modal-box h3 {
+  margin-bottom: 15px;
+}
+
+.modal-box input,
+.modal-box textarea,
+.modal-box select {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.modal-box button {
+  width: 100%;
+  padding: 12px;
+  background: #c90000;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  font-size: 18px;
+  cursor: pointer;
+}
